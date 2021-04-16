@@ -69,8 +69,8 @@ div.row {
   margin: 0 1em 1em 0;
 }
 .floatright {
-  float: right;
-  margin: 0 0 1em 1em;
+  display: block;
+  margin: auto;
 }
 [class*='sidebar'] {
   border: 1px solid #00c4c7;
@@ -190,6 +190,10 @@ div.row {
   .reverse [class*='col-'] {
     margin-left: 0%;
     margin-right: 4%;
+  }
+  .floatright {
+    float: right;
+    margin: 0 0 1em 1em;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
